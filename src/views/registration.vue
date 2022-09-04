@@ -1,8 +1,7 @@
 <template>
-  <div class="">
-    <h1>I´m the registration page</h1>
+  <section class="bg-[#d5eef3] w-full sm:max-w-2xl m-auto">
     <Form />
-  </div>
+  </section>
 </template>
 
 <script>
