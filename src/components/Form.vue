@@ -1,9 +1,7 @@
 <template>
   <!-- container  -->
   <div class="w-10/12 max-w-xl m-auto pt-8 pb-2.5">
-    <h1 class="text-center">
-      RSVP for MySQL Reseller Sales Recruitment Workshop
-    </h1>
+    <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="">
       <ul>
         <li>

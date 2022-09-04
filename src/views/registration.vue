@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#d5eef3] w-full sm:max-w-2xl m-auto font-roboto text-sm font-bold"
+    class="bg-[#d5eef3] w-full sm:max-w-2xl m-auto font-roboto text-sm font-bold text-[#3e4e1a]"
   >
     <Form />
   </section>
