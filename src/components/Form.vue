@@ -4,9 +4,15 @@
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="">
       <ul>
-        <li>
-          <label for="company">Company <span>*</span></label>
-          <input type="text" id="company" />
+        <li class="flex flex-col">
+          <label for="company" class="inline-block px-1 mb-2.5"
+            >Company <span class="text-red-500 ml-1.5">*</span></label
+          >
+          <input
+            type="text"
+            id="company"
+            class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
+          />
         </li>
         <li>
           <label for="title">Name<span>*</span></label>
