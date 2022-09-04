@@ -1,11 +1,17 @@
 <template>
-  <div class="bg-red-500 text-white">
-    <h1 class="text-red">I´m the registration page</h1>
+  <div class="">
+    <h1>I´m the registration page</h1>
+    <Form />
   </div>
 </template>
 
 <script>
-export default {};
+import Form from '../components/Form.vue';
+export default {
+  components: {
+    Form,
+  },
+};
 </script>
 
 <style scoped></style>
