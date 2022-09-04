@@ -1,5 +1,7 @@
 <template>
-  <section class="bg-[#d5eef3] w-full sm:max-w-2xl m-auto">
+  <section
+    class="bg-[#d5eef3] w-full sm:max-w-2xl m-auto font-roboto text-sm font-bold"
+  >
     <Form />
   </section>
 </template>
