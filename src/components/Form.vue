@@ -117,6 +117,12 @@
           </div>
         </li>
       </ul>
+      <button
+        type="submit"
+        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] rounded-md text-white py-2.5 px-4 w-full"
+      >
+        Submit
+      </button>
     </form>
   </div>
 </template>
