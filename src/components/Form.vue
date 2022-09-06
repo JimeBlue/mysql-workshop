@@ -16,44 +16,47 @@
         </li>
         <li class="flex flex-col mb-5">
           <label for="title" class="inline-block px-1 mb-2.5"
-            >Name<span class="text-red-500 ml-1.5">*</span></label
-          >
-          <div class="flex flex-col">
-            <select
-              name="prefix"
-              id="prefix"
-              class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
-            >
-              <option value="Mr">Mr.</option>
-              <option value="Ms">Ms.</option>
-            </select>
-            <label class="text-xs font-light text-[#586834] my-0.5"
-              >Prefix</label
-            >
-          </div>
-          <div class="flex flex-col">
-            <input
-              type="text"
-              id="first-name"
-              class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
-            />
-            <label
-              for="first-name"
-              class="text-xs font-light text-[#586834] my-0.5"
-              >First Name</label
-            >
-          </div>
-          <div class="flex flex-col">
-            <input
-              type="text"
-              id="last-name"
-              class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
-            />
-            <label
-              for="last-name"
-              class="text-xs font-light text-[#586834] my-0.5"
-              >Last Name</label
-            >
+            >Name<span class="text-red-500 ml-1.5">*</span>
+          </label>
+          <!-- container for the name part -->
+          <div class="flex flex-col xs:flex-row xs:flex-wrap">
+            <div class="flex flex-col xs:w-full">
+              <select
+                name="prefix"
+                id="prefix"
+                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6"
+              >
+                <option value="Mr">Mr.</option>
+                <option value="Ms">Ms.</option>
+              </select>
+              <label class="text-xs font-light text-[#586834] my-0.5"
+                >Prefix</label
+              >
+            </div>
+            <div class="flex flex-col xs:w-3/6">
+              <input
+                type="text"
+                id="first-name"
+                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-full"
+              />
+              <label
+                for="first-name"
+                class="text-xs font-light text-[#586834] my-0.5"
+                >First Name</label
+              >
+            </div>
+            <div class="flex flex-col xs:w-3/6">
+              <input
+                type="text"
+                id="last-name"
+                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-11/12 xs:ml-1"
+              />
+              <label
+                for="last-name"
+                class="text-xs font-light text-[#586834] my-0.5 xs:ml-0.5"
+                >Last Name</label
+              >
+            </div>
           </div>
         </li>
         <li class="flex flex-col mb-5">
