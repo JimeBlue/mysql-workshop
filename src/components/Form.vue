@@ -106,7 +106,7 @@
               <input
                 type="tel"
                 id="phone-number"
-                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
+                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204 /0.05)]"
               />
               <label
                 for="phone-number"
@@ -119,7 +119,7 @@
       </ul>
       <button
         type="submit"
-        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] rounded-md text-white py-2.5 px-4 w-full"
+        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full"
       >
         Submit
       </button>
