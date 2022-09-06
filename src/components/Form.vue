@@ -4,10 +4,11 @@
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="">
       <ul>
-        <li class="flex flex-col mb-5">
+        <!-- TODO: from tablet the main labels go next to input -->
+        <li class="flex flex-col mb-5 sm:w-2/5">
           <label for="company" class="inline-block px-1 mb-2.5"
-            >Company <span class="text-red-500 ml-1.5">*</span></label
-          >
+            >Company <span class="text-red-500 ml-1.5">*</span>
+          </label>
           <input
             type="text"
             id="company"
@@ -19,12 +20,12 @@
             >Name<span class="text-red-500 ml-1.5">*</span>
           </label>
           <!-- container for the name part -->
-          <div class="flex flex-col xs:flex-row xs:flex-wrap">
-            <div class="flex flex-col xs:w-full">
+          <div class="flex flex-col xs:flex-row xs:flex-wrap sm:gap-x-2.5">
+            <div class="flex flex-col xs:w-full sm:w-1/6">
               <select
                 name="prefix"
                 id="prefix"
-                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6"
+                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6 sm:w-full"
               >
                 <option value="Mr">Mr.</option>
                 <option value="Ms">Ms.</option>
@@ -33,7 +34,7 @@
                 >Prefix</label
               >
             </div>
-            <div class="flex flex-col xs:w-3/6">
+            <div class="flex flex-col xs:w-3/6 sm:w-1/5">
               <input
                 type="text"
                 id="first-name"
@@ -45,11 +46,11 @@
                 >First Name</label
               >
             </div>
-            <div class="flex flex-col xs:w-3/6">
+            <div class="flex flex-col xs:w-3/6 sm:w-2/6">
               <input
                 type="text"
                 id="last-name"
-                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-11/12 xs:ml-1"
+                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-11/12 xs:ml-1 sm:w-full"
               />
               <label
                 for="last-name"
@@ -59,7 +60,7 @@
             </div>
           </div>
         </li>
-        <li class="flex flex-col mb-5">
+        <li class="flex flex-col mb-5 sm:w-2/5">
           <label for="job" class="px-1 mb-2.5"
             >Job Title <span class="text-red-500 ml-1.5">*</span></label
           >
@@ -76,7 +77,7 @@
             >
           </div>
         </li>
-        <li class="flex flex-col mb-5">
+        <li class="flex flex-col mb-5 sm:w-7/12">
           <label for="email" class="px-1 mb-2.5"
             >Email<span class="text-red-500 ml-1.5">*</span></label
           >
@@ -104,7 +105,7 @@
                 >(EX. 012, 016)</label
               >
             </div>
-            <span class="hidden">-</span>
+            <span class="hidden sm:inline-block">-</span>
             <div class="flex flex-col w-2/3">
               <input
                 type="tel"
