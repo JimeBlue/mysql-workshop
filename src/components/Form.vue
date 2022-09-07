@@ -78,15 +78,15 @@
             >
           </div>
         </li>
-        <li class="flex flex-col mb-5 sm:w-7/12">
-          <label for="email" class="px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="email" class="px-1 mb-2.5 sm:mr-14"
             >Email<span class="text-red-500 ml-1.5">*</span></label
           >
 
           <input
             type="email"
             placeholder="ex: myname@example.com"
-            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin"
+            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin sm:w-2/6"
           />
         </li>
         <li class="flex flex-col">
