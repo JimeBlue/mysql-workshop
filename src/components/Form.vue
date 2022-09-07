@@ -61,11 +61,11 @@
             </div>
           </div>
         </li>
-        <li class="flex flex-col mb-5 sm:w-2/5">
-          <label for="job" class="px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="job" class="px-1 mb-2.5 sm:mr-8"
             >Job Title <span class="text-red-500 ml-1.5">*</span></label
           >
-          <div class="flex flex-col">
+          <div class="flex flex-col sm:w-2/6">
             <input
               type="text"
               id="job-title"
