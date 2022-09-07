@@ -87,15 +87,15 @@
           <input
             type="email"
             placeholder="ex: myname@example.com"
-            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin sm:w-2/6"
+            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin sm:w-3/6"
           />
         </li>
-        <li class="flex flex-col">
-          <label for="" class="px-1 mb-2.5"
+        <li class="flex flex-col sm:flex-row sm:w-full">
+          <label for="" class="px-1 mb-2.5 sm:mr-0.5"
             >Mobile Phone<span class="text-red-500 ml-1.5">*</span>
           </label>
-          <div class="flex gap-x-1.5">
-            <div class="flex flex-col w-1/3">
+          <div class="flex gap-x-1.5 sm:w-4/5">
+            <div class="flex flex-col w-1/3 sm:w-5/12">
               <input
                 type="tel"
                 id="area-code"
@@ -108,7 +108,7 @@
               >
             </div>
             <span class="hidden sm:inline-block">-</span>
-            <div class="flex flex-col w-2/3">
+            <div class="flex flex-col w-2/3 sm:w-5/12">
               <input
                 type="tel"
                 id="phone-number"
