@@ -4,27 +4,30 @@
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="">
       <ul>
-        <li class="flex flex-col mb-5">
-          <label for="company" class="inline-block px-1 mb-2.5"
-            >Company <span class="text-red-500 ml-1.5">*</span></label
-          >
+        <!-- TODO: from tablet the main labels go next to input -->
+        <!-- TODO: why is the first input wider when it is in flex row? -->
+        <!-- TODO: center the button-->
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
+            >Company <span class="text-red-500 ml-1.5">*</span>
+          </label>
           <input
             type="text"
             id="company"
-            class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
+            class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] sm:w-2/6"
           />
         </li>
-        <li class="flex flex-col mb-5">
-          <label for="title" class="inline-block px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row">
+          <label for="title" class="inline-block px-1 mb-2.5 sm:mr-14"
             >Name<span class="text-red-500 ml-1.5">*</span>
           </label>
           <!-- container for the name part -->
-          <div class="flex flex-col xs:flex-row xs:flex-wrap">
-            <div class="flex flex-col xs:w-full">
+          <div class="flex flex-col xs:flex-row xs:flex-wrap sm:gap-x-2.5">
+            <div class="flex flex-col xs:w-full sm:w-1/6">
               <select
                 name="prefix"
                 id="prefix"
-                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6"
+                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6 sm:w-full"
               >
                 <option value="Mr">Mr.</option>
                 <option value="Ms">Ms.</option>
@@ -33,7 +36,7 @@
                 >Prefix</label
               >
             </div>
-            <div class="flex flex-col xs:w-3/6">
+            <div class="flex flex-col xs:w-3/6 sm:w-1/5">
               <input
                 type="text"
                 id="first-name"
@@ -45,11 +48,11 @@
                 >First Name</label
               >
             </div>
-            <div class="flex flex-col xs:w-3/6">
+            <div class="flex flex-col xs:w-3/6 sm:w-2/6">
               <input
                 type="text"
                 id="last-name"
-                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-11/12 xs:ml-1"
+                class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-11/12 xs:ml-1 sm:w-full"
               />
               <label
                 for="last-name"
@@ -59,11 +62,11 @@
             </div>
           </div>
         </li>
-        <li class="flex flex-col mb-5">
-          <label for="job" class="px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="job" class="px-1 mb-2.5 sm:mr-8"
             >Job Title <span class="text-red-500 ml-1.5">*</span></label
           >
-          <div class="flex flex-col">
+          <div class="flex flex-col sm:w-2/6">
             <input
               type="text"
               id="job-title"
@@ -76,23 +79,23 @@
             >
           </div>
         </li>
-        <li class="flex flex-col mb-5">
-          <label for="email" class="px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="email" class="px-1 mb-2.5 sm:mr-14"
             >Email<span class="text-red-500 ml-1.5">*</span></label
           >
 
           <input
             type="email"
             placeholder="ex: myname@example.com"
-            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin"
+            class="border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] placeholder:text-[#586834] placeholder:font-thin sm:w-3/6"
           />
         </li>
-        <li class="flex flex-col">
-          <label for="" class="px-1 mb-2.5"
+        <li class="flex flex-col sm:flex-row sm:w-full">
+          <label for="" class="px-1 mb-2.5 sm:mr-0.5"
             >Mobile Phone<span class="text-red-500 ml-1.5">*</span>
           </label>
-          <div class="flex gap-x-1.5">
-            <div class="flex flex-col w-1/3">
+          <div class="flex gap-x-1.5 sm:w-4/5">
+            <div class="flex flex-col w-1/3 sm:w-5/12">
               <input
                 type="tel"
                 id="area-code"
@@ -104,8 +107,8 @@
                 >(EX. 012, 016)</label
               >
             </div>
-            <span class="hidden">-</span>
-            <div class="flex flex-col w-2/3">
+            <span class="hidden sm:inline-block">-</span>
+            <div class="flex flex-col w-2/3 sm:w-5/12">
               <input
                 type="tel"
                 id="phone-number"
@@ -122,7 +125,7 @@
       </ul>
       <button
         type="submit"
-        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full"
+        class="sm:block bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-2/12 sm:mt-6 sm:mn-0 sm:mx-auto"
       >
         Submit
       </button>
