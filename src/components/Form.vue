@@ -4,9 +4,6 @@
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="">
       <ul>
-        <!-- TODO: from tablet the main labels go next to input -->
-        <!-- TODO: why is the first input wider when it is in flex row? -->
-        <!-- TODO: center the button-->
         <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
             >Company <span class="text-red-500 ml-1.5">*</span>
