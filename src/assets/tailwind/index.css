@@ -6,3 +6,8 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.button-shadow {
+box-shadow: inset 0px 1px 0px 0px #97c4fe;
+}
+      

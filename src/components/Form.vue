@@ -2,7 +2,7 @@
   <!-- container  -->
   <div class="w-10/12 max-w-xl m-auto pt-8 pb-2.5">
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
-    <form action="">
+    <form action="" class="form">
       <ul>
         <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
@@ -122,7 +122,7 @@
       </ul>
       <button
         type="submit"
-        class="sm:block bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-2/12 sm:mt-6 sm:mn-0 sm:mx-auto"
+        class="sm:block bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] button-shadow rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-2/12 sm:mt-6 sm:mn-0 sm:mx-auto"
       >
         Submit
       </button>
