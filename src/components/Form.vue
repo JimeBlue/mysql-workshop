@@ -125,7 +125,7 @@
       </ul>
       <button
         type="submit"
-        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-fit"
+        class="sm:block bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-2/12 sm:mt-6 sm:mn-0 sm:mx-auto"
       >
         Submit
       </button>
