@@ -5,14 +5,15 @@
     <form action="">
       <ul>
         <!-- TODO: from tablet the main labels go next to input -->
-        <li class="flex flex-col mb-5 sm:w-2/5">
-          <label for="company" class="inline-block px-1 mb-2.5"
+        <!-- TODO: why is the input wider when it is in flex row? -->
+        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+          <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
             >Company <span class="text-red-500 ml-1.5">*</span>
           </label>
           <input
             type="text"
             id="company"
-            class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)]"
+            class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] sm:w-2/6"
           />
         </li>
         <li class="flex flex-col mb-5">
