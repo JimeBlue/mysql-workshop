@@ -5,7 +5,7 @@
     <form action="">
       <ul>
         <!-- TODO: from tablet the main labels go next to input -->
-        <!-- TODO: why is the input wider when it is in flex row? -->
+        <!-- TODO: why is the first input wider when it is in flex row? -->
         <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
             >Company <span class="text-red-500 ml-1.5">*</span>
@@ -16,8 +16,8 @@
             class="inline-block border-solid border border-[#ccc] shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] sm:w-2/6"
           />
         </li>
-        <li class="flex flex-col mb-5">
-          <label for="title" class="inline-block px-1 mb-2.5"
+        <li class="flex flex-col mb-5 sm:flex-row">
+          <label for="title" class="inline-block px-1 mb-2.5 sm:mr-14"
             >Name<span class="text-red-500 ml-1.5">*</span>
           </label>
           <!-- container for the name part -->
