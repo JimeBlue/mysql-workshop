@@ -6,6 +6,7 @@
       <ul>
         <!-- TODO: from tablet the main labels go next to input -->
         <!-- TODO: why is the first input wider when it is in flex row? -->
+        <!-- TODO: center the button-->
         <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
             >Company <span class="text-red-500 ml-1.5">*</span>
@@ -124,7 +125,7 @@
       </ul>
       <button
         type="submit"
-        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full"
+        class="bg-gradient-to-t from-[#3d94f6] to-[#1e62d0] border-solid border border-[#2e7be3] shadow-inner shadow-blue-100 rounded-md text-white py-2.5 px-4 mt-5 w-full sm:w-fit"
       >
         Submit
       </button>
