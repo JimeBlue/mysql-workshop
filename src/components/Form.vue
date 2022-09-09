@@ -1,7 +1,7 @@
 <template>
   <!-- TODO: 
 
-  3) Correct email label-->
+-->
 
   <!-- container  -->
   <div class="w-10/12 max-w-xl m-auto pt-8 pb-2.5">
@@ -33,7 +33,8 @@
                 <option value="Mr">Mr.</option>
                 <option value="Ms">Ms.</option>
               </select>
-              <label class="text-xs font-light text-[#586834] my-0.5"
+              <label
+                class="text-xs text-[12px] font-extralight text-[#586834] my-0.5"
                 >Prefix</label
               >
             </div>
@@ -45,7 +46,7 @@
               />
               <label
                 for="first-name"
-                class="text-xs font-light text-[#586834] my-0.5"
+                class="text-xs text-[12px] font-extralight text-[#586834] my-0.5"
                 >First Name</label
               >
             </div>
@@ -57,7 +58,7 @@
               />
               <label
                 for="last-name"
-                class="text-xs font-light text-[#586834] my-0.5 xs:ml-0.5"
+                class="text-xs text-[12px] font-extralight text-[#586834] my-0.5 xs:ml-0.5"
                 >Last Name</label
               >
             </div>
@@ -75,14 +76,14 @@
             />
             <label
               for="job-title"
-              class="text-xs font-light text-[#586834] my-0.5"
+              class="text-xs text-[12px] font-extralight text-[#586834] my-0.5"
               >(eg Executive, Manger, etc.)</label
             >
           </div>
         </li>
         <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row sm:w-full">
           <label for="email" class="px-1 mb-2.5 sm:mr-14"
-            >Email<span class="text-red-500 ml-1.5">*</span></label
+            >E-mail<span class="text-red-500 ml-1.5">*</span></label
           >
 
           <input
@@ -104,7 +105,7 @@
               />
               <label
                 for="area-code"
-                class="text-xs font-light text-[#586834] my-0.5"
+                class="text-xs text-[12px] font-extralight text-[#586834] my-0.5"
                 >(EX. 012, 016)</label
               >
             </div>
@@ -117,7 +118,7 @@
               />
               <label
                 for="phone-number"
-                class="text-xs font-light text-[#586834] my-0.5"
+                class="text-xs text-[12px] font-extralight text-[#586834] my-0.5"
                 >(Last 7 Digit)</label
               >
             </div>
