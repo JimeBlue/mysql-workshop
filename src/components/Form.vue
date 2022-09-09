@@ -109,7 +109,12 @@
                 >(EX. 012, 016)</label
               >
             </div>
-            <span class="hidden sm:inline-block">-</span>
+            <div
+              class="flex justify-center items-center h-7"
+            >
+              <span class="hidden sm:inline-block">-</span>
+            </div>
+
             <div class="flex flex-col w-2/3 sm:w-5/12">
               <input
                 type="tel"
