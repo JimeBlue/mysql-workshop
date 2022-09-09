@@ -6,7 +6,7 @@
   <!-- container  -->
   <div class="w-10/12 max-w-xl m-auto pt-8 pb-2.5">
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
-    <form action="" class="sm:pb-7">
+    <form class="sm:pb-7" @submit.prevent="handleSubmit">
       <ul>
         <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
@@ -15,8 +15,13 @@
           <input
             type="text"
             id="company"
+            v-model="company"
             class="inline-block border-solid border border-[#ccc] input-shadow py-1 px-0.5 sm:w-2/6"
           />
+          <!-- 2) show the error if companyError is empty string -->
+          <div v-if="companyError" class="text-rose-500">
+            {{ companyError }}
+          </div>
         </li>
         <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row">
           <label for="title" class="inline-block px-1 mb-2.5 sm:mr-14"
@@ -109,9 +114,7 @@
                 >(EX. 012, 016)</label
               >
             </div>
-            <div
-              class="flex justify-center items-center h-7"
-            >
+            <div class="flex justify-center items-center h-7">
               <span class="hidden sm:inline-block">-</span>
             </div>
 
@@ -141,7 +144,31 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      company: '',
+      /* 1) Create companyError */
+      companyError: '',
+    };
+  },
+  methods: {
+    handleSubmit() {
+      /* 3) Validate password lenght to be over 1 character.
+      I use the ternary operator for that. So, I say, if
+      password is greater than five, then passwordError is
+      equal to empty string. Else, passwordError is
+      equal to  "Password must be at least 6 characters long"*/
+      this.companyError =
+        this.company.length > 1 ? '' : 'This field is required';
+
+      //  If password validates simulate uploading to database by console loging
+      if (!this.passwordError) {
+        console.log('email: ', this.email);
+      }
+    },
+  },
+};
 </script>
 
 <style></style>
