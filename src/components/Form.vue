@@ -1,6 +1,6 @@
 <template>
   <!-- TODO: 
-
+* Fix alignment between select and first name and last name form desktop
 -->
 
   <!-- container  -->
@@ -28,7 +28,7 @@
               <select
                 name="prefix"
                 id="prefix"
-                class="border-solid border border-black input-shadow py-1 px-0.5 xs:w-3/6 sm:w-full"
+                class="border-solid border border-black py-1 px-0.5 xs:w-3/6 sm:w-full"
               >
                 <option value="Mr">Mr.</option>
                 <option value="Ms">Ms.</option>
