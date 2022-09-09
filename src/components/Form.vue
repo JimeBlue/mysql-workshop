@@ -1,7 +1,6 @@
 <template>
   <!-- TODO: 
-  1) Set padding for all inputs
-  2) Incrase space between input fields
+
   3) Correct email label-->
 
   <!-- container  -->
@@ -9,7 +8,7 @@
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
     <form action="" class="form">
       <ul>
-        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+        <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row sm:w-full">
           <label for="company" class="inline-block px-1 mb-2.5 sm:mr-7"
             >Company <span class="text-red-500 ml-1.5">*</span>
           </label>
@@ -19,7 +18,7 @@
             class="inline-block border-solid border border-[#ccc] input-shadow py-1 px-0.5 sm:w-2/6"
           />
         </li>
-        <li class="flex flex-col mb-5 sm:flex-row">
+        <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row">
           <label for="title" class="inline-block px-1 mb-2.5 sm:mr-14"
             >Name<span class="text-red-500 ml-1.5">*</span>
           </label>
@@ -64,7 +63,7 @@
             </div>
           </div>
         </li>
-        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+        <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row sm:w-full">
           <label for="job" class="px-1 mb-2.5 sm:mr-8"
             >Job Title <span class="text-red-500 ml-1.5">*</span></label
           >
@@ -81,7 +80,7 @@
             >
           </div>
         </li>
-        <li class="flex flex-col mb-5 sm:flex-row sm:w-full">
+        <li class="flex flex-col mb-7 sm:mb-8 sm:flex-row sm:w-full">
           <label for="email" class="px-1 mb-2.5 sm:mr-14"
             >Email<span class="text-red-500 ml-1.5">*</span></label
           >
