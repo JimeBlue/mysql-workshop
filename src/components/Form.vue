@@ -1,6 +1,9 @@
 <template>
   <!-- TODO: 
-  1) Set padding for all inputs-->
+  1) Set padding for all inputs
+  2) Incrase space between input fields
+  3) Correct email label-->
+
   <!-- container  -->
   <div class="w-10/12 max-w-xl m-auto pt-8 pb-2.5">
     <h1 class="my-7">RSVP for MySQL Reseller Sales Recruitment Workshop</h1>
@@ -13,7 +16,7 @@
           <input
             type="text"
             id="company"
-            class="inline-block border-solid border border-[#ccc] input-shadow sm:w-2/6"
+            class="inline-block border-solid border border-[#ccc] input-shadow py-1 px-0.5 sm:w-2/6"
           />
         </li>
         <li class="flex flex-col mb-5 sm:flex-row">
@@ -26,7 +29,7 @@
               <select
                 name="prefix"
                 id="prefix"
-                class="border-solid border border-black shadow-inner shadow-[0px_1px_2px_rgba(204,204,204/ 0.05)] xs:w-3/6 sm:w-full"
+                class="border-solid border border-black input-shadow py-1 px-0.5 xs:w-3/6 sm:w-full"
               >
                 <option value="Mr">Mr.</option>
                 <option value="Ms">Ms.</option>
@@ -39,7 +42,7 @@
               <input
                 type="text"
                 id="first-name"
-                class="border-solid border border-[#ccc] input-shadow xs:w-full"
+                class="border-solid border border-[#ccc] input-shadow py-1 px-0.5 xs:w-full"
               />
               <label
                 for="first-name"
@@ -51,7 +54,7 @@
               <input
                 type="text"
                 id="last-name"
-                class="border-solid border border-[#ccc] input-shadow xs:w-11/12 xs:ml-1 sm:w-full"
+                class="border-solid border border-[#ccc] input-shadow py-1 px-0.5 xs:w-11/12 xs:ml-1 sm:w-full"
               />
               <label
                 for="last-name"
@@ -69,7 +72,7 @@
             <input
               type="text"
               id="job-title"
-              class="border-solid border border-[#ccc] input-shadow"
+              class="border-solid border border-[#ccc] input-shadow py-1 px-0.5"
             />
             <label
               for="job-title"
@@ -86,7 +89,7 @@
           <input
             type="email"
             placeholder="ex: myname@example.com"
-            class="border-solid border border-[#ccc] input-shadow placeholder:text-[#586834] placeholder:font-thin sm:w-3/6"
+            class="border-solid border border-[#ccc] input-shadow placeholder:text-[#586834] placeholder:font-thin py-1 px-0.5 sm:w-3/6"
           />
         </li>
         <li class="flex flex-col sm:flex-row sm:w-full">
@@ -98,7 +101,7 @@
               <input
                 type="tel"
                 id="area-code"
-                class="border-solid border border-[#ccc] input-shadow"
+                class="border-solid border border-[#ccc] input-shadow py-1 px-0.5"
               />
               <label
                 for="area-code"
@@ -111,7 +114,7 @@
               <input
                 type="tel"
                 id="phone-number"
-                class="border-solid border border-[#ccc] input-shadow"
+                class="border-solid border border-[#ccc] input-shadow py-1 px-0.5"
               />
               <label
                 for="phone-number"
